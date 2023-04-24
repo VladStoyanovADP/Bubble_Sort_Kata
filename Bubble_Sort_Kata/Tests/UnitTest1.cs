@@ -11,13 +11,8 @@ namespace Tests
             [Test]
             public void GivenAnEmptyArrayReturnsEmptyArray()
             {
-                //Arrange
                 var testArray = new int[] { };
-
-                //Act
                 var output = KataSortClass.BubbleSort(testArray);
-
-                //Assert
                 Assert.That(output, Is.EqualTo(testArray));
             }
 
